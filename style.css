@@ -2,7 +2,35 @@
     margin: opx;
     font-family: 'inter';
 }
+@media print {
+    nav{
+        display: none;
+    }
+}
+@media screen {
+    nav{
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+    }
+       
+}
 
+@media (max-widht:480px) {
+    nav a{
+        position:fixed;
+        bottom: 0px;
+        left: 0px;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+}
+nav a{
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
 #logo{
     margin: 50px 0px 0px 50px;
 }
