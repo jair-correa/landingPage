@@ -157,3 +157,7 @@ button:hover{
     transition-duration: 0.2ms;
     opacity: 20px;
 }
+#id {
+    max-height: 1000px !important;
+    overflow: hidden;
+}
