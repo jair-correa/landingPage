@@ -3,11 +3,13 @@
   padding: 0px;
   font-family: "inter";
 }
+
 @media print {
   nav {
     display: none;
   }
 }
+
 @media screen {
   nav {
     display: flex;
@@ -48,6 +50,7 @@ nav a {
   background-image: url(images/topmenu-walpaper.svg);
   background-size: cover;
   color: aliceblue;
+  border-radius: 10px 10px 0px 0px;
 }
 
 #infomenu {
@@ -68,6 +71,7 @@ nav a {
 #videotitle {
   color: #247ba0;
   margin-top: 50px;
+  border-radius: 10px;
 }
 
 #videotext {
@@ -76,12 +80,14 @@ nav a {
 }
 #video {
   margin: 50px 25px 50px 75px;
+  border-radius: 15px;
 }
 
 #carousel {
   background-color: #247ba0;
-  margin: 0px 10px 0px 10px;
+  margin: 0px 3px 0px 3px;
   padding: 50px;
+  border-radius: 10px;
 }
 
 #carouseltitle {
